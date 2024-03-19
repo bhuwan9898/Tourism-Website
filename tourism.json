@@ -1,0 +1,925 @@
+[
+    {
+      "country": "Nepal",
+      "id": "1",
+      "message": "Namaste! Welcome to Nepal, the land of the Himalayas and ancient cultures. Explore the majestic peaks of the world's highest mountains, trek through breathtaking landscapes, and immerse yourself in the rich cultural tapestry of this Himalayan nation.",
+      "avatar": "https://cdn.himalayanglacier.com/wp-content/uploads/2013/01/Himalayas-one-of-the-major-tourist-attraction-in-Nepal.jpg",
+      "ratings": 4.4,
+      "cities": [
+        {
+          "cityId": 1,
+          "city": "Kathmandu",
+          "avatar": [
+            "https://media.istockphoto.com/id/687611810/photo/view-at-annapurna-mountain-range-and-its-reflection-in-phewa-lake-in-pokhara-nepal.jpg?s=612x612&w=0&k=20&c=r1uza8OoSQeGGTrnnaHyq7HSxHG9DyvjHxxm4vqgDsc=",
+            "https://lh3.googleusercontent.com/p/AF1QipNdDkSQQOEl0_9MKlmWVN_sMMStCEzn_6UM9gO-=s1360-w1360-h1020"
+          ],
+          "destinations": 46,
+          "best_time_to_visit": "September to November (Autumn)",
+          "ratings": 4.7,
+          "high": "20°C",
+          "low": "9°C",
+          "places": [
+            {
+              "place": "Swayambhunath Stupa",
+              "placeId": 1,
+              "avatar": [
+                "https://media.istockphoto.com/id/687611810/photo/view-at-annapurna-mountain-range-and-its-reflection-in-phewa-lake-in-pokhara-nepal.jpg?s=612x612&w=0&k=20&c=r1uza8OoSQeGGTrnnaHyq7HSxHG9DyvjHxxm4vqgDsc=",
+                "https://lh3.googleusercontent.com/p/AF1QipNdDkSQQOEl0_9MKlmWVN_sMMStCEzn_6UM9gO-=s1360-w1360-h1020"
+              ],
+              "destinations": 46,
+              "best_time_to_visit": "September to November (Autumn)",
+              "ratings": 4.7,
+              "high": "20°C",
+              "low": "9°C",
+              "description": "undefined",
+              "comments": [
+                {
+                  "userId": 1,
+                  "commentId": 1,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "The view from Swayambhunath is breathtaking, especially during sunrise.",
+                  "replies": [
+                    {
+                      "userId": 2,
+                      "reply": "Yes, the panoramic view of Kathmandu Valley is truly mesmerizing."
+                    },
+                    {
+                      "userId": 3,
+                      "reply": "I loved the peaceful atmosphere at Swayambhunath."
+                    },
+                    {
+                      "reply": "jhsvckjderfgvndksjcvhnderlkgbhjnrtkghrtjk"
+                    }
+                  ]
+                },
+                {
+                  "userId": 4,
+                  "commentId": 2,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "The monkeys at Swayambhunath are quite mischievous!",
+                  "replies": [
+                    {
+                      "userId": 5,
+                      "reply": "Haha, they definitely add to the charm of the place."
+                    },
+                    {
+                      "userId": 6,
+                      "reply": "I had to be careful with my belongings because of them!"
+                    },
+                    {
+                      "userId": 1,
+                      "reply": "sureeee"
+                    }
+                  ]
+                },
+                {
+                  "userId": 1,
+                  "commentId": 1709493301812,
+                  "comment": "it is beatiful!!!",
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "replies": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cityId": 2,
+          "city": "Janakpur",
+          "avatar": [
+            "https://boundlessadventure.com/wp-content/uploads/2024/01/Ram-Temple-at-Janakpur-Dham-tour.webp",
+            "https://admin.buddhaair.com/upload/blog/mainimage/1556446741_TMKGj_20181111114157_33677.jpg"
+          ],
+          "destinations": 34,
+          "best_time_to_visit": "May, July, and August",
+          "ratings": 4.7,
+          "high": "27.1°C",
+          "low": "17.4°C",
+          "places": [
+            {
+              "place": "Mithila Art Gallery",
+              "placeId": 1,
+              "avatar": [
+                "https://himalayanmerch.com/wp-content/uploads/2021/12/mithila2-1.jpg",
+                "https://kingsframingandartgallery.com/pub/media/wysiwyg/pic-6.jpg"
+              ],
+              "destinations": 46,
+              "best_time_to_visit": "September to November (Autumn)",
+              "ratings": 4.7,
+              "high": "20°C",
+              "low": "9°C",
+              "description": "undefined",
+              "comments": [
+                {
+                  "userId": 1,
+                  "commentId": 1,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "Visiting the Mithila Art Gallery in Janakpur was an unforgettable experience. The gallery is a treasure trove of vibrant colors and intricate designs that beautifully showcase the rich cultural heritage of Mithila art",
+                  "replies": [
+                    {
+                      "userId": 2,
+                      "reply": "I was truly captivated by the collection, which includes rare, modern, and contemporary pieces."
+                    },
+                    {
+                      "userId": 3,
+                      "reply": "The level of detail and precision in each painting is astonishing, offering a glimpse into the traditional art form's significance and beauty."
+                    }
+                  ]
+                },
+                {
+                  "userId": 4,
+                  "commentId": 2,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "One painting depicted a seemingly solemn religious scene, but with a mischievous cow making a sneaky escape in the background, causing all sorts of chaos. The guide's playful narration had us all chuckling.",
+                  "replies": [
+                    {
+                      "userId": 5,
+                      "reply": "It's moments like these that remind you art isn't just about the serious stuff; it's also about finding joy and laughter in the unexpected."
+                    },
+                    {
+                      "userId": 6,
+                      "reply": "The Mithila Art Gallery isn't just a feast for the eyes; it's a place where culture, tradition, and humor blend seamlessly. Who knew art could be so entertaining?"
+                    },
+                    {
+                      "userId": 1,
+                      "reply": "yeahhh"
+                    }
+                  ]
+                },
+                {
+                  "userId": 1,
+                  "commentId": 1709493301812,
+                  "comment": "it is beatiful!!!",
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "replies": [
+                    {
+                      "reply": "yes it is"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cityId": 3,
+          "city": "Pokhara",
+          "destinations": 20,
+          "best_time_to_visit": "April to May",
+          "ratings": 4.3,
+          "avatar": [
+            "https://images.squarespace-cdn.com/content/v1/61f67be72ecfd876bf8b44fa/3e59400d-5ff9-4016-be47-0eeed67c3949/https-%3A%3Acommons.wikimedia.org%3Awiki%3AFile-World_Peace_Pagoda%2C_Lumbini.jpg?format=1500w",
+            "https://www.friendsadventure.com/images/tours-in-nepal/lumbini-pilgrimage-tours.jpg"
+          ],
+          "high": "24°C",
+          "low": "9°C",
+          "description": "undefined",
+          "places": [
+            {
+              "placeId": 2,
+              "avatar": [
+                "https://media.istockphoto.com/id/687611810/photo/view-at-annapurna-mountain-range-and-its-reflection-in-phewa-lake-in-pokhara-nepal.jpg?s=612x612&w=0&k=20&c=r1uza8OoSQeGGTrnnaHyq7HSxHG9DyvjHxxm4vqgDsc=",
+                "https://lh3.googleusercontent.com/p/AF1QipNdDkSQQOEl0_9MKlmWVN_sMMStCEzn_6UM9gO-=s1360-w1360-h1020"
+              ],
+              "destinations": 46,
+              "best_time_to_visit": "September to November (Autumn)",
+              "ratings": 4.7,
+              "high": "20°C",
+              "low": "9°C",
+              "description": "undefined",
+              "place": "Phewa Lake",
+              "comments": [
+                {
+                  "userId": 13,
+                  "commentId": 5,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "Boating on Phewa Lake with the reflection of the Annapurna range is a surreal experience.",
+                  "replies": [
+                    {
+                      "userId": 14,
+                      "reply": "I felt at peace surrounded by the majestic mountains."
+                    },
+                    {
+                      "userId": 15,
+                      "reply": "The tranquility of Phewa Lake is unmatched."
+                    }
+                  ]
+                },
+                {
+                  "userId": 16,
+                  "commentId": 6,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "Watching the sunset from the lakeside cafes near Phewa Lake is magical.",
+                  "replies": [
+                    {
+                      "userId": 17,
+                      "reply": "The colors of the sky reflecting on the lake create a picturesque scene."
+                    },
+                    {
+                      "userId": 18,
+                      "reply": "I could spend hours just admiring the view."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "placeId": 3,
+              "avatar": [
+                "https://media.istockphoto.com/id/687611810/photo/view-at-annapurna-mountain-range-and-its-reflection-in-phewa-lake-in-pokhara-nepal.jpg?s=612x612&w=0&k=20&c=r1uza8OoSQeGGTrnnaHyq7HSxHG9DyvjHxxm4vqgDsc=",
+                "https://lh3.googleusercontent.com/p/AF1QipNdDkSQQOEl0_9MKlmWVN_sMMStCEzn_6UM9gO-=s1360-w1360-h1020"
+              ],
+              "destinations": 46,
+              "best_time_to_visit": "September to November (Autumn)",
+              "ratings": 4.7,
+              "high": "20°C",
+              "low": "9°C",
+              "description": "undefined",
+              "place": "Davis Falls",
+              "comments": [
+                {
+                  "userId": 19,
+                  "commentId": 7,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "The sheer force of Davis Falls is impressive.",
+                  "replies": [
+                    {
+                      "userId": 20,
+                      "reply": "The sound of the waterfall is deafening."
+                    },
+                    {
+                      "userId": 21,
+                      "reply": "I was amazed by the underground passage created by the waterfall."
+                    },
+                    {
+                      "userId": 1,
+                      "reply": "nlkkmlkml"
+                    }
+                  ]
+                },
+                {
+                  "userId": 22,
+                  "commentId": 8,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "The legend of Davis Falls is intriguing.",
+                  "replies": [
+                    {
+                      "userId": 23,
+                      "reply": "I heard about the tragic love story associated with the falls."
+                    },
+                    {
+                      "userId": 24,
+                      "reply": "It adds a mystical element to the natural wonder."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cityId": 4,
+          "city": "Lumbini",
+          "destinations": 15,
+          "best_time_to_visit": "April to May",
+          "ratings": 4.5,
+          "avatar": [
+            "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sunset_%26_Tea_Garden.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/1/13/Vedetar_2019_web_small.jpg"
+          ],
+          "high": "24°C",
+          "low": "9°C",
+          "description": "undefined",
+          "places": [
+            {
+              "placeId": 4,
+              "avatar": [
+                "https://media.istockphoto.com/id/687611810/photo/view-at-annapurna-mountain-range-and-its-reflection-in-phewa-lake-in-pokhara-nepal.jpg?s=612x612&w=0&k=20&c=r1uza8OoSQeGGTrnnaHyq7HSxHG9DyvjHxxm4vqgDsc=",
+                "https://lh3.googleusercontent.com/p/AF1QipNdDkSQQOEl0_9MKlmWVN_sMMStCEzn_6UM9gO-=s1360-w1360-h1020"
+              ],
+              "destinations": 46,
+              "best_time_to_visit": "September to November (Autumn)",
+              "ratings": 4.7,
+              "high": "20°C",
+              "low": "9°C",
+              "description": "undefined",
+              "place": "Maya Devi Temple",
+              "comments": [
+                {
+                  "userId": 49,
+                  "commentId": 17,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "Maya Devi Temple marks the birthplace of Lord Buddha.",
+                  "replies": [
+                    {
+                      "userId": 50,
+                      "reply": "Visiting the temple was a deeply spiritual experience."
+                    },
+                    {
+                      "userId": 51,
+                      "reply": "The peaceful ambiance of Lumbini is palpable at the temple."
+                    }
+                  ]
+                },
+                {
+                  "userId": 52,
+                  "commentId": 18,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "The Ashoka Pillar near Maya Devi Temple is a symbol of Buddhist heritage.",
+                  "replies": [
+                    {
+                      "userId": 53,
+                      "reply": "The inscription on the pillar is fascinating to read."
+                    },
+                    {
+                      "userId": 54,
+                      "reply": "The pillar stands as a testament to Emperor Ashoka's reverence for Buddhism."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cityId": 5,
+          "city": "Dharan",
+          "destinations": 25,
+          "best_time_to_visit": "October and March",
+          "ratings": 4.7,
+          "avatar": [
+            "https://thehimalayantimes.com/uploads/imported_images/wp-content/uploads/2020/02/tree-houses.jpg",
+            "https://www.holidify.com/images/cmsuploads/compressed/Bhedetar_Dharan_20191009132030.jpg"
+          ],
+          "high": "24°C",
+          "low": "13°C",
+          "places": [
+            {
+              "placeId": 5,
+              "avatar": [
+                "https://www.travelcaffeine.com/wp-content/uploads/2016/03/mcarthur-burney-falls-memorial-state-park-california-fall-colors.jpg",
+                "https://www.newsport.com.au/fileadmin/user_upload/moved_files/b/d/JOSEPHINE_FALLS.jpg"
+              ],
+              "destinations": 46,
+              "best_time_to_visit": "September to November (Autumn)",
+              "ratings": 4.7,
+              "high": "20°C",
+              "low": "9°C",
+              "description": "undefined",
+              "place": "Namaste Waterfall",
+              "comments": [
+                {
+                  "userId": 49,
+                  "commentId": 17,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "I finally got the chance to visit Namaste Waterfall near Dharan, and let me tell you, it's an absolute hidden gem! The trek to get there was an adventure in itself, but nothing compared to the sight of the waterfall. It's like nature's own way of greeting you with a 'Namaste.'",
+                  "replies": [
+                    {
+                      "userId": 50,
+                      "reply": " The water cascading down in that unique formation, surrounded by lush greenery, was simply breathtaking. "
+                    },
+                    {
+                      "userId": 51,
+                      "reply": "And if you're lucky, you'll catch a rainbow or two. It's a bit of a hike from Bhedetar, but every step is worth it. Definitely the highlight of my trip to Dharan!"
+                    }
+                  ]
+                },
+                {
+                  "userId": 52,
+                  "commentId": 18,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "Never did I imagine that a waterfall could greet me in such a grand manner until I visited Namaste Waterfall near Dharan. The trip there was an adventure, trekking through beautiful landscapes, but reaching the waterfall felt like a reward.",
+                  "replies": [
+                    {
+                      "userId": 53,
+                      "reply": "Its unique formation, creating a 'Namaste' with the water, is something you have to see to believe. The area around the waterfall is so peaceful and picturesque, perfect for a day out in nature."
+                    },
+                    {
+                      "userId": 54,
+                      "reply": "I took so many photos, especially when a rainbow appeared! It's undoubtedly the most popular site in the area for good reason. A must-visit for anyone traveling to Dharan."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cityId": 6,
+          "city": "Gorkha",
+          "destinations": 16,
+          "best_time_to_visit": "September to November",
+          "ratings": 4.9,
+          "avatar": [
+            "https://nepaltraveller.com/images/main/1682496273.sidetrackimageimage_750x_61facb75a279b.jpg",
+            "https://streetnepal.com/wp-content/uploads/2020/09/gorkha.jpg"
+          ],
+          "high": "25°C",
+          "low": "10°C",
+          "places": [
+            {
+              "placeId": 6,
+              "avatar": [
+                "https://c8.alamy.com/comp/2BX8NXT/basantapur-durbar-square-of-kathmandu-under-renovation-after-gorkha-earthquake-2BX8NXT.jpg",
+                "https://i.ytimg.com/vi/emi4lspoIzc/maxresdefault.jpg"
+              ],
+              "destinations": 46,
+              "best_time_to_visit": "September to November (Autumn)",
+              "ratings": 4.7,
+              "high": "20°C",
+              "low": "9°C",
+              "description": "undefined",
+              "place": "Gorkha Durbar",
+              "comments": [
+                {
+                  "userId": 49,
+                  "commentId": 17,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "Visiting Gorkha Durbar was like stepping back in time.The architecture is fascinating, and learning about the history of the place where the unification of Nepal began was truly inspiring.",
+                  "replies": [
+                    {
+                      "userId": 50,
+                      "reply": " The climb to the top might test your stamina, but every step is worth it for the panoramic views you're rewarded with. "
+                    },
+                    {
+                      "userId": 51,
+                      "reply": "The museum inside offers a deep dive into the life of Prithvi Narayan Shah and the famous Gurkha warriors. A must-visit for history buffs!"
+                    }
+                  ]
+                },
+                {
+                  "userId": 52,
+                  "commentId": 18,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "Absolutely mesmerizing! The Durbar stands as a testament to Nepal's rich history and the strategic brilliance of its rulers. ",
+                  "replies": [
+                    {
+                      "userId": 53,
+                      "reply": "The surroundings are equally impressive, with lush landscapes and the Himalayas in the backdrop. It's a place that fills you with pride and awe"
+                    },
+                    {
+                      "userId": 54,
+                      "reply": "Don't miss the chance to see the Gorakhnath Cave nearby; it adds so much more to the spiritual journey"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "id": "2",
+      "message": "Chào mừng bạn đến với Việt Nam! Welcome to Vietnam, a land of stunning natural beauty, rich history, and vibrant culture. Explore the bustling streets of Hanoi, cruise through the emerald waters of Ha Long Bay, and wander through ancient towns like Hoi An. ",
+      "avatar": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/3f7a27c6b9af039d3aeb15a0874f489a62e55bce/big-ac586b9d1e2698e4cdc5a1110221dd79.jpg",
+      "ratings": 4.5,
+      "cities": [
+        {
+          "cityId": 1,
+          "city": "Ho Chi Minh City",
+          "destinations": 15,
+          "best_time_to_visit": "April to May",
+          "ratings": 4.5,
+          "avatar": [
+            "https://content.r9cdn.net/rimg/dimg/f0/b1/54455949-city-18144-167c85df43f.jpg?width=1366&height=768&xhint=1159&yhint=754&crop=true",
+            "https://www.tripsavvy.com/thmb/y82T9aDS3t3HQcBx2tBTV_iqoNc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ho-chi-minh-city-sunset-07d2ad67791b4b8fb92e590d8bf2b1fc.jpg"
+          ],
+          "high": "24°C",
+          "low": "9°C",
+          "places": [
+            {
+              "placeId": 5,
+              "avatar": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XWLVCInW9S2f5HHrh4mlsoa532iU2XUQmrEkclkeYQ&s",
+                "https://d13jio720g7qcs.cloudfront.net/images/destinations/origin/5cac53f628523.png"
+              ],
+              "destinations": 46,
+              "best_time_to_visit": "September to November (Autumn)",
+              "ratings": 4.7,
+              "high": "20°C",
+              "low": "9°C",
+              "description": "undefined",
+              "place": "Ben Thanh Market",
+              "comments": [
+                {
+                  "userId": 73,
+                  "commentId": 25,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "Ben Thanh Market is a bustling hub of activity.",
+                  "replies": [
+                    {
+                      "userId": 74,
+                      "reply": "I enjoyed haggling with vendors for souvenirs."
+                    },
+                    {
+                      "userId": 75,
+                      "reply": "The variety of goods available at the market is impressive."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "placeId": 6,
+              "avatar": [
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/9e/ce/a3/war-remnants-museum.jpg?w=1200&h=-1&s=1",
+                "https://media.safarway.com/content/67f8ba17-ea25-4cdf-9eff-a87b66c187fd_sm.jpg"
+              ],
+              "destinations": 46,
+              "best_time_to_visit": "September to November (Autumn)",
+              "ratings": 4.7,
+              "high": "20°C",
+              "low": "9°C",
+              "description": "undefined",
+              "place": "War Remnants Museum",
+              "comments": [
+                {
+                  "userId": 79,
+                  "commentId": 27,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "The War Remnants Museum offers a sobering look at the Vietnam War.",
+                  "replies": [
+                    {
+                      "userId": 80,
+                      "reply": "The exhibits are both informative and heartbreaking."
+                    },
+                    {
+                      "userId": 81,
+                      "reply": "It's important to learn about the war from the perspective of the Vietnamese people."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "cityId": 5,
+          "city": "Hoi An",
+          "destinations": 15,
+          "best_time_to_visit": "April to May",
+          "ratings": 4.5,
+          "avatar": [
+            "https://vietnamtour.in/wp-content/uploads/IN_Things-to-do-in-Hoi-An.jpg",
+            "https://www.nothingfamiliar.com/wp-content/uploads/2023/01/Hoi-An-Vietnam.jpg"
+          ],
+          "high": "24°C",
+          "low": "9°C",
+          "places": [
+            {
+              "placeId": 1709692490001,
+              "avatar": "",
+              "place": "123",
+              "destinations": "123",
+              "best_time_to_visit": "123",
+              "ratings": "",
+              "high": "",
+              "low": "",
+              "description": "123",
+              "comments": [
+                {
+                  "userId": 110,
+                  "commentId": 1709692501518,
+                  "comment": "Hello",
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "replies": [
+                    {
+                      "reply": "hi"
+                    },
+                    {
+                      "userId": 118,
+                      "reply": "hi"
+                    }
+                  ]
+                },
+                {
+                  "userId": 118,
+                  "commentId": 1709692529259,
+                  "comment": "hello\n",
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "replies": []
+                },
+                {
+                  "userId": 118,
+                  "commentId": 1709692547885,
+                  "comment": "hello",
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "placeId": 1709692385817,
+              "avatar": "",
+              "place": "123",
+              "destinations": "123",
+              "best_time_to_visit": "123",
+              "ratings": "123",
+              "high": "",
+              "low": "",
+              "description": "123",
+              "comments": [
+                {
+                  "userId": 110,
+                  "commentId": 1709692398990,
+                  "comment": "HI",
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "replies": [
+                    {
+                      "userId": 110,
+                      "reply": "hello"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "placeId": 1709692159830,
+              "avatar": "",
+              "place": "123",
+              "destinations": "123",
+              "best_time_to_visit": "123",
+              "ratings": "123",
+              "high": "",
+              "low": "",
+              "description": "123",
+              "comments": [
+                {
+                  "userId": 110,
+                  "commentId": 1709692176513,
+                  "comment": "Hi",
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "placeId": 7,
+              "avatar": [
+                "https://vietnam.travel/sites/default/files/inline-images/11125-Qu%E1%BA%A3ng%20Nam-huybank%40gmail.com-hoi%20an%20ve%20dem%20.jpg",
+                "https://vietnam.travel/sites/default/files/inline-images/shutterstock_1448516303_resize.jpg"
+              ],
+              "destinations": 46,
+              "best_time_to_visit": "September to November (Autumn)",
+              "ratings": 4.7,
+              "high": "20°C",
+              "low": "9°C",
+              "description": "undefined",
+              "place": "Hoi An Ancient Town",
+              "comments": [
+                {
+                  "userId": 85,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "Exploring the lantern-lit streets of Hoi An Ancient Town at night is magical.",
+                  "replies": [
+                    {
+                      "userId": 86,
+                      "reply": "The atmosphere is so romantic."
+                    },
+                    {
+                      "userId": 87,
+                      "reply": "The colorful lanterns create a mesmerizing scene."
+                    }
+                  ]
+                },
+                {
+                  "userId": 88,
+                  "commentId": 300,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "The architecture of Hoi An Ancient Town is a blend of Vietnamese, Chinese, and Japanese influences.",
+                  "replies": [
+                    {
+                      "userId": 89,
+                      "reply": "It's like stepping back in time."
+                    },
+                    {
+                      "userId": 90,
+                      "reply": "I loved visiting the historic buildings and temples."
+                    }
+                  ]
+                },
+                {
+                  "userId": 110,
+                  "commentId": 1709692192721,
+                  "comment": "THis is my favorite place!",
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "replies": []
+                }
+              ]
+            },
+            {
+              "placeId": 8,
+              "avatar": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhmOliKH2PsAJqafEsnkOkG3IR33RlTGQzxWn9mxeuCw&s",
+                "https://media-cdn.tripadvisor.com/media/photo-s/16/13/87/79/rise-and-shine.jpg"
+              ],
+              "destinations": 46,
+              "best_time_to_visit": "September to November (Autumn)",
+              "ratings": 4.7,
+              "high": "20°C",
+              "low": "9°C",
+              "description": "undefined",
+              "place": "An Bang Beach",
+              "comments": [
+                {
+                  "userId": 91,
+                  "commentId": 30,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "An Bang Beach is a tranquil escape from the bustling streets of Hoi An.",
+                  "replies": [
+                    {
+                      "userId": 92,
+                      "reply": "The golden sands and clear blue waters are so inviting."
+                    },
+                    {
+                      "userId": 93,
+                      "reply": "I enjoyed lounging on the beach and watching the sunset."
+                    }
+                  ]
+                },
+                {
+                  "userId": 94,
+                  "commentId": 31,
+                  "upvoteUserId": [],
+                  "downvoteUserId": [],
+                  "comment": "The beachfront restaurants at An Bang Beach serve delicious seafood.",
+                  "replies": [
+                    {
+                      "userId": 95,
+                      "reply": "I had some of the freshest seafood dishes there."
+                    },
+                    {
+                      "userId": 96,
+                      "reply": "The grilled fish was amazing."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "country": "Afghanistan",
+      "id": "2",
+      "message": "Salaam! Welcome to Afghanistan, where ancient history, rugged landscapes, and warm hospitality await you. Explore the majestic beauty of the Hindu Kush mountains, discover the rich cultural heritage of Kabul, and experience the resilience of its people",
+      "avatar": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/MSNBC/Components/Photo/_new/090422-Band-e-Amir-hmed-7a.jpg",
+      "ratings": 4.3
+    },
+    {
+      "country": "Armenia",
+      "id": "3",
+      "message": "Barev! Welcome to Armenia, a land of ancient history, stunning landscapes, and hearty cuisine. Explore the timeless beauty of monasteries, indulge in delicious Armenian cuisine, and immerse yourself in the warmth of Armenian hospitality.",
+      "avatar": "https://thetravelbible.com/wp-content/uploads/2019/01/arTour_tatev-hayweb.jpg",
+      "ratings": 4.5
+    },
+    {
+      "country": "Azerbaijan",
+      "id": "4",
+      "message": "Salam! Welcome to Azerbaijan, where East meets West in a fusion of cultures, traditions, and landscapes. Discover the modern elegance of Baku, explore the ancient wonders of Sheki, and savor the flavors of Azerbaijani cuisine.",
+      "avatar": "https://img.traveltriangle.com/blog/wp-content/uploads/2019/06/Places-To-Visit-In-Azerbaijan.jpg",
+      "ratings": 4.2
+    },
+    {
+      "country": "Bahrain",
+      "id": "5",
+      "message": "Marhaba! Welcome to Bahrain, the pearl of the Arabian Gulf. Explore the vibrant souks of Manama, relax on pristine beaches, and immerse yourself in the rich history and culture of this island kingdom.",
+      "avatar": "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2019/05/Balance-in-Bahrain-feature.jpg",
+      "ratings": 4.6
+    },
+    {
+      "country": "Bangladesh",
+      "id": "6",
+      "message": "Shagotom! Welcome to Bangladesh, a land of rivers, lush greenery, and vibrant culture. Explore the bustling streets of Dhaka, discover the tranquility of the Sundarbans, and experience the warmth of Bangladeshi hospitality.",
+      "avatar": "https://www.jodogoairportassist.com/main/assets/images/blog/main-image/top-10-tourist-places-to-visit-in-bangladesh.webp",
+      "ratings": 4.4
+    },
+    {
+      "country": "Bhutan",
+      "id": "7",
+      "message": "Kuzu Zangpo La! Welcome to Bhutan, the land of happiness and stunning landscapes. Explore ancient monasteries, trek through pristine forests, and experience the unique culture and traditions of this Himalayan kingdom.",
+      "avatar": "https://www.tourmyindia.com/blog//wp-content/uploads/2018/11/Family-Attractions-in-Bhutan.jpg",
+      "ratings": 4.7
+    },
+    {
+      "country": "Brunei",
+      "id": "8",
+      "message": "Selamat Datang! Welcome to Brunei, a kingdom of tranquility and natural beauty. Explore the majestic rainforests of Temburong, discover the grandeur of the Sultan Omar Ali Saifuddien Mosque, and experience the serenity of Kampong Ayer.",
+      "avatar": "https://cdn.thecrazytourist.com/wp-content/uploads/2017/03/Omar-Ali-Saifuddien-Mosque-.jpg",
+      "ratings": 4.1
+    },
+    {
+      "country": "Cambodia",
+      "id": "9",
+      "message": "Sua Sdei! Welcome to Cambodia, home to ancient temples, lush jungles, and vibrant cities. Explore the awe-inspiring Angkor Wat, cruise the tranquil waters of Tonle Sap Lake, and savor the flavors of Cambodian cuisine.",
+      "avatar": "https://images.baodantoc.vn/uploads/2021/12/23/root45/den-angkor-wat-4.jpg",
+      "ratings": 4.3
+    },
+    {
+      "country": "China",
+      "id": "10",
+      "message": "Ni Hao! Welcome to China, a land of ancient wonders and modern marvels. Explore the iconic Great Wall, wander through historic Forbidden City, and marvel at the terracotta warriors of Xi'an. China invites you to embark on a journey of discovery, where every corner reveals a new adventure.",
+      "avatar": "https://www.khmertimeskh.com/wp-content/uploads/2019/01/P15-Top-Pix-Region-1.jpg",
+      "ratings": 4.8
+    },
+    {
+      "country": "Cyprus",
+      "id": "11",
+      "message": "Καλώς ήρθατε! Welcome to Cyprus, the island of Aphrodite and Mediterranean delights. Discover ancient ruins, relax on pristine beaches, and indulge in delicious Cypriot cuisine",
+      "avatar": "https://static.independent.co.uk/2021/03/05/11/05100834-8425deb0-6080-49ba-a021-07cc920a5671.jpg?quality=75&width=990&crop=3%3A2%2Csmart&auto=webp",
+      "ratings": 4.5
+    },
+    {
+      "country": "Georgia",
+      "id": "12",
+      "message": "გამარჯობა! Welcome to Georgia, a land of stunning Caucasus mountains, ancient churches, and warm hospitality. Explore the charming streets of Tbilisi, marvel at the breathtaking landscapes of Svaneti, and indulge in the flavors of Georgian cuisine.",
+      "avatar": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/07/shutterstock_422353681.jpg",
+      "ratings": 4.4
+    },
+    {
+      "country": "India",
+      "id": "13",
+      "message": "Namaste! Welcome to India, a land of diverse cultures, vibrant colors, and timeless traditions. From the majestic Taj Mahal to the bustling streets of Mumbai, India captivates with its rich history, spirituality, and culinary delights. ",
+      "avatar": "https://theluxurytravelexpert.com/wp-content/uploads/2019/07/header2-1.jpg",
+      "ratings": 4.7
+    },
+    {
+      "country": "Indonesia",
+      "id": "14",
+      "message": "Selamat Datang! Welcome to Indonesia, the emerald of the equator. From the lush jungles of Bali to the pristine beaches of Komodo Island, Indonesia is a paradise waiting to be explored. Dive into crystal-clear waters, hike through ancient rainforests, and encounter diverse wildlife. ",
+      "avatar": "https://www.goatsontheroad.com/wp-content/uploads/2019/08/hindu-temple-where-to-go-in-bali.jpg",
+      "ratings": 4.6
+    },
+    {
+      "country": "Iran",
+      "id": "15",
+      "message": "خوش آمدید! Welcome to Iran, a land of ancient civilizations, breathtaking landscapes, and warm hospitality. Explore the magnificent ruins of Persepolis, wander through the bustling bazaars of Tehran, and marvel at the beauty of Isfahan's mosques and palaces",
+      "avatar": "https://cheetah-adventures.com/wp-content/uploads/2020/06/Naghsh-e_Jahan_Square-Meidan-Emam-Isfahan-iran-attractions-things-to-do-in-iran-destinations-iran-destination-visit-iran-travel.jpg",
+      "ratings": 4.3
+    },
+    {
+      "country": "Iraq",
+      "id": "16",
+      "message": "أهلاً وسهاً! Welcome to Iraq, a land of ancient history, vibrant cultures, and breathtaking landscapes. Explore the historic sites of Babylon and Ur, marvel at the beauty of the Mesopotamian marshes, and experience the warmth of Iraqi hospitality.",
+      "avatar": "https://cdn.thecrazytourist.com/wp-content/uploads/2017/03/Ctesiphon.jpg",
+      "ratings": 4.2
+    },
+    {
+      "country": "Israel",
+      "id": "17",
+      "message": "ברוכים הבאים! Welcome to Israel, a land of ancient history, diverse cultures, and stunning landscapes. Explore the historic streets of Jerusalem, float in the Dead Sea, and wander through the vibrant markets of Tel Aviv. ",
+      "avatar": "https://www.planetware.com/photos-large/ISR/israel-haifa-bahaii-gardens.jpg",
+      "ratings": 4.8
+    },
+    {
+      "country": "Japan",
+      "id": "18",
+      "message": "Konnichiwa! Welcome to Japan, land of the rising sun. Get ready to experience a harmonious blend of tradition and modernity, where ancient temples stand alongside bustling metropolises. Discover the art of sushi-making, soak in rejuvenating onsens, and stroll through cherry blossom-lined streets. ",
+      "avatar": "https://a.cdn-hotels.com/gdcs/production3/d339/a08760c4-932d-4055-bd82-22b6339f99d5.jpg",
+      "ratings": 4.9
+    },
+    {
+      "country": "Jordan",
+      "id": "19",
+      "message": "مرحب بك!Welcome to Jordan, a land of ancient wonders, stunning desert landscapes, and warm hospitality. Explore the breathtaking ruins of Petra, float in the buoyant waters of the Dead Sea, and experience the timeless beauty of Wadi Rum. ",
+      "avatar": "https://www.planetware.com/wpimages/2020/03/jordan-top-attractions-petra.jpg",
+      "ratings": 4.5
+    },
+    {
+      "country": "Kazakhstan",
+      "id": "20",
+      "message": "Қош келдіңіз! Welcome to Kazakhstan, the land of vast steppes, majestic mountains, and rich nomadic heritage. Explore the stunning landscapes of the Altai Mountains, marvel at the beauty of the Charyn Canyon, and experience the vibrant culture of Kazakhstan's cities.",
+      "avatar": "https://media.cntraveller.com/photos/637e00eece1c9bd657a981ea/16:9/w_1280,c_limit/NAU(1280x720).jpg",
+      "ratings": 4.4
+    }
+  ]

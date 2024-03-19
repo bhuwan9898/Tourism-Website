@@ -1,0 +1,765 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta country_name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+  <link rel="stylesheet" href="cities.css">
+  <link rel="stylesheet" href="popularplaces.css">
+
+  <title> Country</title>
+</head>
+<body >
+  <div class="makeItFixed">
+    <nav class="navbar nav-pills justify-content-around bg-light ">
+      <a class=" navbar-brand fs-2 fw-semibold " href="#">Countries <span id="countrycountry_name"></span></a>
+      <form class="d-flex " style = "width: 400px;" role="search">
+        <select class="form-control me-1 " id="countries">
+          <option value="">Select A Country</option>
+          <option value="Afghanistan">Afghanistan</option>
+          <option value="Armenia">Armenia</option>
+          <option value="Azerbaijan">Azerbaijan</option>
+          <option value="Bahrain">Bahrain</option>
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="Bhutan">Bhutan</option>
+          <option value="Brunei">Brunei</option>
+          <option value="Cambodia">Cambodia</option>
+          <option value="China">China</option>
+          <option value="Cyprus">Cyprus</option>
+          <option value="Georgia">Georgia</option>
+          <option value="India">India</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="Iran">Iran</option>
+          <option value="Iraq">Iraq</option>
+          <option value="Israel">Israel</option>
+          <option value="Japan">Japan</option>
+          <option value="Jordan">Jordan</option>
+          <option value="Kazakhstan">Kazakhstan</option>
+          <option value="Nepal">Nepal</option>
+          <option value="Vietnam">Vietnam</option>
+        </select>     
+        <button class="btn btn-outline-dark" type="submit" id = "search-country">
+            <i class="bi bi-search"></i> 
+        </button>
+      </form>
+          <div class="auth-container d-flex gap-4 align-items-end w-20"></div>
+    </nav> 
+</div> 
+  <div class="d-flex justify-content-center font-Mukta">
+    <div class="container text-cente m-5">
+      <div class = "container text-end m-3"> 
+        <div class="mt-4">
+          <div class="row">
+            <div class="col">
+              <a data-bs-toggle="modal" data-bs-target="#add_modal" class="btn btn-dark" id="btn-add">
+                <i class="bi bi-plus-circle"></i>
+              </a>
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col">
+              <a class="btn btn-dark" id="btn-favorite">
+                <i class="bi bi-heart-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+           
+      <div
+        id="country-container"
+        class="row row-cols-1 row-cols-sm-2 row-cols-lg-3"
+      ></div>
+
+      <!-- PAGINATION -------------------------------------------------------------------->
+      <div id="actions" class="d-flex justify-content-center my-4"></div>
+      <!---Contacts-->
+    </div>
+    <section class = "contacts" style = "height: 50px;position:relative;bottom: 20; width: 100%;justify-content: center; align-items: center;">
+      <ul class= "ul">
+        <li class ="li">
+          <a class = "a" href="#">
+            <i class="fab fa-facebook-f icon"></i> </a>
+        </li>
+        <li class = "li">
+          <a  class = "a" href="#">
+            <i class="fab fa-twitter icon"></i></a>
+        </li>
+        <li class = "li" >
+          <a class = "a" href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+        <li class = "li">
+          <a class = "a" href="#"><i class="fab fa-google-plus-g icon"></i></a></li>
+      </ul>
+    </section>
+    <button id = "scroll-to-top-button" style = "display: block;">
+      <img height = "50" width = "50" src = "https://cdn3.iconfinder.com/data/icons/common-4/24/ui-22-1024.png">
+    </button>
+
+    <!-- Login --------------------------------------------------------------->
+  <div class="modal fade" id="login_modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" >
+    <div class="modal-dialog modal-dialog-centered" style = "max-width: 400px;">
+      <div class="modal-content">
+        <!--Header of Modal-->
+        <div class="modal-header">
+          <h2 class="modal-title fs-5 " id="staticBackdropLabel" style = "position: relative; left: 45%;">
+            <b>Login</b>
+          </h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <!--Modal Body-->
+        <div class="modal-body">
+          <form class="row g-3">
+            <div class="col-12">
+              <input type="email" class="form-control" id="loginEmail" required placeholder="Email">
+            </div>
+            <div class="col-12 ">
+              <input type="password" class="form-control" id="loginPassword" required placeholder="Password">
+            </div>
+            
+            <div class="col-12 text-center">
+              <button class="btn btn-secondary login-submit-btn" type="submit" >Submit</button>
+              <p>Don't have an account yet?</p>
+              <button type="button" class="btn btn-secondary signup-btn" id="signup-btn" data-bs-dismiss="modal"> Sign up</button>
+            </div>
+            <div class="loginError"></div>
+          </form>
+        </div>
+        <!--Modal Footer-->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<!-- Signup--------------------------------------------------------------->
+<div class="modal fade" id="signup_modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-dialog-centered" style = "max-width: 400px;">
+    <div class="modal-content">
+      <!--Header of Modal-->
+      <div class="modal-header">
+        <h2 class="modal-title fs-5 " id="staticBackdropLabel" style = "position: relative; left: 45%;">
+          <b>Signup</b>
+        </h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      
+      <!--Modal Body-->
+      <div class="modal-body">
+        <form class="row g-3">
+          <div class="col-12">
+            <input type="email" class="form-control" id="userName" required placeholder="Username">
+          </div>
+          <div class="col-12">
+            <input type="email" class="form-control" id="loginEmail" required placeholder="Email">
+          </div>
+          <div class="col-12 ">
+            <input type="password" class="form-control" id="loginPassword" required placeholder="Password">
+          </div>
+          
+          <div class="col-12 text-center">
+            <button class="btn btn-secondary login-submit-btn" type="submit" >Submit</button>
+            <p>Already have an account?</p>
+            <button type="button" class="btn btn-secondary signup-btn" id="signup-btn" data-bs-dismiss="modal">Login</button>
+          </div>
+          <div class="loginError"></div>
+        </form>
+      </div>
+      <!--Modal Footer-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    
+    <!--UPDATE MODAL ------------------------------------------------------->
+    <div
+      class="modal fade"
+      id="update_modal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!--Modal Header-->
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Update Country
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <!--Modal body-->
+          <div class="modal-body">
+            <div class="card-body d-flex flex-column">
+              <form>
+                <div class="mb-3">
+                  <label for="inputcountry" class="form-label">Country Name</label>
+                  <input type="text" class="form-control" id="inputcountry"/>
+                </div>
+
+                <div class="mb-3">
+                  <label for="inputRating" class="form-label">Ratings</label>
+                  <input type="text" class="form-control" id="inputRating" />
+                </div>
+                
+
+
+                <div class="mb-3">
+                  <label for="inputDescription" class="form-label"
+                    >Short Introduction</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="inputDescription"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="edit-submit" class="btn btn-dark">
+              Save changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Add Modal-->
+    <div
+    class="modal fade"
+    id="add_modal"
+    data-bs-backdrop="static"
+    data-bs-keyboard="false"
+    tabindex="-1"
+    aria-labelledby="staticBackdropLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!--Modal Header-->
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">
+            Add Your Favorite Country besides this listed-Country
+          </h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <!--Modal Body-->
+        <div class="modal-body">
+          <div class="card-body d-flex flex-column">
+            <form>
+              <div class="mb-3">
+                  <label for="formFile" class="form-label">Country Image</label>
+                  <input type="file" class="form-control" id="countryImageAdd" />
+                </div>
+              <div class="mb-3">
+                <label for="inputcountry" class="form-label">Country Name</label>
+                <input type="text" class="form-control" id="inputcountryAdd"/>
+              </div>
+
+            
+              <div class="mb-3">
+                <label for="inputRating" class="form-label">Ratings</label>
+                <input type="text" class="form-control" id="inputRatingAdd" />
+              </div>
+              <div class="mb-3">
+                <label for="inputDescription" class="form-label"
+                  >Short Introduction</label
+                >
+                <textarea
+                  class="form-control"
+                  id="inputDescriptionAdd"
+                  rows="3"
+                ></textarea>
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+        
+        <div class="modal-footer">
+          <button type="button" id="add-submit" class="btn btn-success">
+            Add Country
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://kit.fontawesome.com/118e30abce.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    //Using jquery and ajax methods to get the JSON file from the jsonBlob server.
+    let Countries = [];
+    var offset = 0;
+    var rpp = 9;
+    var pages = 0;
+    var editingCountryId = -1;
+    var addingCountryId = -1;
+    var imageFile = "";
+    const userApiUrl = "https://jsonblob.com/api/1213602404489879552";
+    const scrollToTopButton = document.getElementById('scroll-to-top-button');
+    let users = []
+    axios
+      .get(userApiUrl, {})
+      .then(function (res) {
+        users = res.data;
+      })
+      .catch(function (err) {
+        console.log(err);
+      });
+
+    $(document).ready(function(){
+
+      //handle queery parameter
+      $.getJSON("https://jsonblob.com/api/1213499724727705600", function(data ) {
+        Countries = data;
+        console.log(Countries);
+    //PAGE BASED PAGINATION
+        displayCards(Countries);
+        displayPageBasedPagination(Countries);
+        function displayPageBasedPagination(Countries) {
+          rpp = 9;
+          pages = Math.ceil(Countries.length / rpp);
+          document.querySelector("#actions").innerHTML = "";
+          for (let i = 0; i < pages; i++) {
+            let loadMoreButton = document.createElement("button");
+            loadMoreButton.setAttribute("data-page", i + 1);
+            loadMoreButton.classList.add("btn");
+            loadMoreButton.classList.add("page-btn");
+
+            if (i * rpp === offset) {
+              loadMoreButton.classList.add("btn-dark");
+              loadMoreButton.classList.add("disabled");
+            } else {
+              loadMoreButton.classList.add("btn-outline-dark");
+            }
+            loadMoreButton.classList.add("m-1");
+            loadMoreButton.innerText = i + 1;
+            loadMoreButton.addEventListener("click", function (e) {
+              let buttons = document.querySelectorAll(".page-btn");
+              for (let i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove("disabled");
+                buttons[i].classList.remove("btn-dark");
+                buttons[i].classList.add("btn-outline-dark");
+              }
+              offset = i * rpp;
+              e.target.classList.remove("btn-outline-dark");
+              e.target.classList.add("btn-dark");
+              e.target.classList.add("disabled");
+              document.getElementById("country-container").innerHTML = "";
+              displayCards(Countries);
+            });
+            document.querySelector("#actions").append(loadMoreButton);
+          }
+        }
+
+        function generateCard(Country) {
+          console.log(Country)
+           const cardHTML = `
+            <div class="col cards my-2" id = ${Country.id}>
+                <span class="card h-100">
+                  <div class="position-relative">
+                    <img id="avatar" src="${Country.avatar}" class="card-img-top" alt="beagle" style = "box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);"/>
+                  </div>
+
+                  <div class="card-body d-flex flex-column" style="text-align: left;">
+                    <div class="d-flex justify-content-between">
+                    <div class="d-flex"> <h5  class="card-title fw-bold " style="font-size: 24px;">${Country.country}</h5>
+                      
+                      </div>
+                   <div>
+                      <i class="fa-solid fa-star " ></i> ${Country.ratings}
+                      </div>
+                    </div>
+                    <ul class="list-unstyled">
+        
+                      <li class = "card-text">${Country.message}</li>
+                      <li id="id"><strong>ID:</strong> ${Country.id}</li>
+                    </ul>
+                  </div>
+                  <div class="d-flex justify-content-end gap-2 m-3">
+                    <a href="cities.html">
+                        <button class="learn-more">
+                          <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                          </span>
+                          <a class="button-text" href="cities.html?country=${Country.country}" >Explore</a>
+                        </button>
+                        </a>
+                    <a data-bs-toggle="modal" data-bs-target="#update_modal"
+                    class="btn btn-dark " id="btn-edit">
+                    <i class="bi bi-pencil-square"></i></a>
+                    <a
+                    class="btn btn-dark d-flex align-items-center">
+                    <i class="bi bi-trash3-fill"></i></a>
+                  </div>
+                </span>
+            </div>`;
+          return cardHTML;
+        }
+
+        function displayCards(Countries) {
+          for (let i = offset; i < Math.min(offset + rpp, Countries.length); i++) {
+            document.getElementById("country-container").innerHTML += generateCard(
+              Countries[i]
+            );
+          }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+        var exploreButtons = document.querySelectorAll('.button-text');
+
+        button-text.forEach(function(button) {
+        button.addEventListener('click', function() {
+          var countryId = this.getAttribute('data-country-id');
+          redirectToCities(countryId);
+  });
+});
+});
+        function redirectToCities(countryId) {
+          window.location.href = `cities.html?country=${countryId}`;
+      }
+
+//Populate the update model when update button is clicked handled later.
+
+function populateUpdateModal(Country) {
+          document.getElementById("inputcountry").value = Country.country;
+          document.getElementById("inputRating").value = Country.ratings;
+          document.getElementById("inputDescription").value = Country.message;
+          document.getElementById("inputAge").value = Country.id;
+
+        }
+        
+
+        function getCountriesById(id) {
+          return Countries.find((Country) => Country.id === id);//return the pet whose id is passed as parameter
+        }
+
+        function checkUserInLocalStorage(){
+          const user = localStorage.getItem('user')
+          const navbar = $('.navbar')
+          const authContainer = navbar.find('.auth-container')
+          if(user){
+            const username = JSON.parse(user).name;
+            authContainer.html(`
+            <div>Hi, ${username}</div>
+            <button class = "btn btn-dark"id="logoutBtn">Logout</button>
+            `)
+          }else{
+            authContainer.html(`
+             <button class ="btn btn-dark" data-bs-toggle="modal" data-bs-target="#login_modal" id="loginBtn">Login</button>
+             <button class = "btn btn-dark" data-bs-toggle="modal" data-bs-target="#signup_modal" id="signupBtn">Sign Up</button>
+            `)
+          }
+        }
+
+        function loginUser(email, password){
+          const foundUser = users.find(user => user.email === email && user.password === password);
+          if (foundUser){
+              const { name, email} = foundUser; // Destructure user properties
+              console.log('login');
+              const user = {
+                  name: name,
+                  email: email,
+              };
+              localStorage.setItem('user', JSON.stringify(user));
+              checkUserInLocalStorage();
+              $('#login_modal').modal('hide');
+          }else{
+              console.log('cant login');
+              $('#loginError').text('Email or password not found');
+          }
+        } 
+
+        function signupUser(username, email, password){
+          const existingUser = users.find(user=> user.email === email);
+          if(existingUser){
+            $('#signupError').text('Email already exists. Please use a different email');
+            return;
+          }
+          const newUser = {
+            userId: users.length + 1,
+            name: username,
+            email: email,
+            password: password,
+          }
+          const newLocalUser = {
+            userId: users.length + 1,
+            name: username,
+            email: email,
+          }
+          console.log(newUser)
+          users.push(newUser);
+          axios.put(userApiUrl, users).then((res)=>{
+            console.log(res.data)
+          }).catch((err)=>{
+            console.log(err)
+          })
+          
+          localStorage.setItem('user', JSON.stringify(newLocalUser));
+          $("#signupError").text("");
+          checkUserInLocalStorage()
+          $("#signup_modal").modal("hide");
+        }
+
+        $(document).ready(function() {
+            checkUserInLocalStorage();
+            $(document).on('click', '#logoutBtn', function() {
+              localStorage.removeItem('user');
+              window.location.href = '/'; // Redirect to home page
+            });
+            $('#login_modal form').submit(function(e){
+              e.preventDefault();
+              const email = $('#loginEmail').val();
+              const password = $('#loginPassword').val();
+              loginUser(email, password)
+            })
+            $('#signup_modal form').submit(function(e){
+              e.preventDefault();
+              const username = $('#signupUsername').val()
+              const email = $('#signupEmail').val();
+              const password = $('#signupPassword').val();
+              console.log('signup')
+              signupUser(username, email, password);
+            })
+             $(document).on("click", "#login-btn", function () {
+              console.log('khanh')
+              $("#signup_modal").modal("hide");
+              $("#login_modal").modal("show");
+          });
+          $(document).on("click", "#signup-btn", function () {
+              console.log('khanh1')
+              $("#signup_modal").modal("show");
+              $("#login_modal").modal("hide");
+          });
+        });
+
+    // listen to event when click on  INFORMATION icon (vanilla js)
+        document
+          .getElementById("login_modal")
+          .addEventListener("show.bs.modal", function (event) {
+            const modalDoc = event.relatedTarget;
+            const id =
+              modalDoc.parentNode.parentNode.querySelector('ul li[id="id"]');
+            const Country = getCountriesById(id.innerText.split(" ")[1]);
+            populateInfoModal(Country);
+          });
+
+    
+        $(() => {
+          //Handle the search button
+         document.getElementById("search-country").addEventListener("click", function(event) {  
+             event.preventDefault();
+              var countryDisplay = [];
+              var selectedCountry = document.getElementById("countries").value;
+              console.log(selectedCountry);
+              if (selectedCountry === ""){
+                alert("Please select a country.")
+              }
+              for(let i = 0; i < Countries.length; i++) {
+                  if (Countries[i].country === selectedCountry) {
+                      countryDisplay.push(Countries[i]);
+                      break; // Stop searching after finding the first match
+                  }
+              }
+              console.log(countryDisplay);
+              document.getElementById("country-container").innerHTML = "";
+              displayCards(countryDisplay);
+              displayPageBasedPagination(countryDisplay); 
+        });
+          
+          //Delete the pet and put the pets data structure to the jsonBlob array.
+          $(document).on("click", ".btn-dark", function () {
+            let parentDiv = $(this).parent().parent().parent();
+            let parentId = parentDiv.attr("id");
+            const index = Countries.findIndex((Country) => Country.id === parentId);
+            console.log(index);
+            if (index !== -1) {
+              Countries.splice(index, 1);
+              console.log(Countries);
+              $.ajax({
+                      type: "PUT",
+                      url: "https://jsonblob.com/api/1213499724727705600",
+                      data: JSON.stringify(Countries),
+                      contentType: "application/json; charset=utf-8",
+                      dataType: "json",
+                    success: function(xhr,data,response){
+                          console.log(xhr);
+                          console.log(data);
+                          console.log(response);
+                          console.log(response.getAllResponseHeaders());
+                      },
+                      error: function(errMsg) {
+                          alert(errMsg);
+                      }
+                    });
+              $("#country-container").empty();
+              displayCards(Countries);
+              displayPageBasedPagination(Countries);
+            }
+          });
+          //populate pet information as default value on update modal
+          $(document).on("click", "#btn-edit", function () {
+            editCountryIdText = $(this)
+              .parents()
+              .parents()
+              .eq(1)
+              .find("div")
+              .find("ul")
+              .find("li[id]")
+              .text();
+            editingCountryId = editCountryIdText.split(" ")[1];
+            const editingCountry = getCountriesById(editingCountryId);
+            populateUpdateModal(editingCountry);
+          });
+
+          //update pet information when the edit form is submitted
+          $(document).on("click", "#edit-submit", function () {
+            const editingCountry = getCountriesById(editingCountryId);
+            var updatedCountry = {
+              id: editingCountry.id,
+              avatar: editingCountry.avatar,
+              country: $("#inputcountry").val() || editingCountry.country,
+              ratings: $("#inputRating").val() || editingCountry.ratings,
+              message: $("#inputDescription").val() || editingCountry.message,
+              cities: [],
+            };
+            //update UI depend on new pets array stored in jsonBlob
+            const index = Countries.findIndex((Country) => Country.id === editingCountryId);
+            if (index !== -1) {
+              Countries[index] = updatedCountry;
+            $("#country-container").empty();
+            displayCards(Countries);
+            }
+            $("#update_modal").modal("hide");
+            $.ajax({
+                      type: "PUT",
+                      url: "https://jsonblob.com/api/1213499724727705600",
+                      data: JSON.stringify(Countries),
+                      contentType: "application/json; charset=utf-8",
+                      dataType: "json",
+                    success: function(xhr,data,response){
+                          console.log(xhr);
+                          console.log(data);
+                          console.log(response);
+                          console.log(response.getAllResponseHeaders());
+                      },
+                      error: function(errMsg) {
+                          alert(errMsg);
+                      }
+                    });
+          });
+
+          //This is the section where add pet button is handled.
+          //upload the image file from the user and add it to the jsonBlob.
+          $('#CountryImageAdd').change(function(e){
+            const file = e.target.files[0];
+            const reader = new FileReader();
+            reader.onload = function(){
+              imageDataUrl = reader.result;
+            };
+            reader.readAsDataURL(file);
+            const filePath= $("#petImageAdd").val().substring(12);
+            imageFile = `${"../assets/"}${filePath}`;
+            console.log(imageFile);
+          })
+          //When add pet button is clicked we add the new card to the country-container.
+          $(document).on("click", "#add-submit", function () {
+            var addingCountry = {
+              id: $("#idAdd").val(),
+              avatar: imageFile,
+              country: $("#inputcountryAdd").val(),
+              ratings: $("#inputRatingAdd").val(),
+              message: $("#inputDescriptionAdd").val(),
+              cities: [],
+                       
+            };
+            //update UI depend on new pets array stored in local storage
+            //Using unshift method to add the new pet in index 0.
+            Countries.unshift(addingCountry);
+            $("#country-container").empty();
+            displayCards(Countries);
+            displayPageBasedPagination(Countries);
+            $("#add_modal").modal("hide");
+            $.ajax({
+                      type: "PUT",
+                      url: "https://jsonblob.com/api/1213499724727705600",
+                      data: JSON.stringify(Countries),
+                      contentType: "application/json; charset=utf-8",
+                      dataType: "json",
+                    success: function(xhr,data,response){
+                          console.log(xhr);
+                          console.log(data);
+                          console.log(response);
+                          console.log(response.getAllResponseHeaders());
+                      },
+                      error: function(errMsg) {
+                          alert(errMsg);
+                      }
+                    });
+          });
+        });
+
+
+  });
+});
+
+       
+  //handle the go to top button
+  window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 300) {
+                scrollToTopButton.style.display = 'block';
+            } else {
+                scrollToTopButton.style.display = 'none';
+            }
+        });
+
+        // Scroll the page to the top when the button is clicked
+        scrollToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+  </script>
+</body>
+</html>
